@@ -17,7 +17,7 @@ int main(int argc, char** argv) {
     printf("Inserisci un valore decimale da triplicare: ");
     scanf("%f", &f);
     // TODO Correggi l'implementazione della procedura raddoppia
-    triplica(f);
+    triplica(&f);
     printf("Il valore triplicato è: %f\n", f);
     
     // SEZIONE 2 ------------------------------------------
@@ -32,7 +32,7 @@ int main(int argc, char** argv) {
         
         // TODO Inserisci qui codice e chiamata alla funzione per l'aggiunta della squadra
         // nella memoria dinamica (vedi squadra.h)
-        
+        aggiungiSquadra()
         printf("Vuoi aggiungere un'altra squadra? (s/n) ");
         getchar();  // Non modificare (buffered read)
         scelta = getchar();
